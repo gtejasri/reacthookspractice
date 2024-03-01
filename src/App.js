@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import ClassCounter from './Components/ClassCounter';
 import HookCounter from './Components/HookCounter';
 import HookCounterTwo from './Components/HookCounterTwo';
@@ -9,6 +10,11 @@ import EffectHookMouse from './Components/EffectHookMouse';
 import EffectMouseContainer from './Components/EffectMouseContainer';
 import EffectIntervalHookCounter from './Components/EffectIntervalHookCounter';
 import EffectDataFetching from './Components/EffectDataFetching';
+
+//import ComponentC from './ComponentTree/ComponentC';
+
+// export const UserContext = React.createContext()
+// export const ChannelContext = React.createContext()
 
 function App() {
   return (
@@ -21,9 +27,16 @@ function App() {
     <EffectHookCounterOne/> 
     <EffectHookMouse/>    
     <EffectMouseContainer/>
-    <EffectIntervalHookCounter/> */}
+    <EffectIntervalHookCounter/> 
+    <EffectDataFetching/> */}
 
-    <EffectDataFetching/>
+    
+  {/* <UserContext.Provider value={'Tejasri'}>
+    <ChannelContext.Provider value={'Context Learning'}>
+     <ComponentC/>
+    </ChannelContext.Provider> 
+  </UserContext.Provider>
+   */}
 
     
     </div>
