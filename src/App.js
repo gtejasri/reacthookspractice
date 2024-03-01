@@ -14,6 +14,8 @@ import EffectDataFetching from './Components/EffectDataFetching';
 import CounterOne from './UseReducerComponents/CounterOne';
 import CounterTwo from './UseReducerComponents/CounterTwo';
 import CounterThree from './UseReducerComponents/CounterThree';
+import DataFetchingOne from './UseReducerComponents/DataFetchingOne';
+import DataFetchingTwo from './UseReducerComponents/DataFetchingTwo';
 
 
 //import ComponentC from './ComponentTree/ComponentC';
@@ -46,7 +48,12 @@ function App() {
     
     {/* <CounterOne/> */}
     {/* <CounterTwo/> */}
-    <CounterThree/>
+    {/* <CounterThree/> */}
+
+    {/* <DataFetchingOne/> */}
+
+    <DataFetchingTwo/>
+
     </div>
   );
 }
