@@ -16,6 +16,11 @@ import CounterTwo from './UseReducerComponents/CounterTwo';
 import CounterThree from './UseReducerComponents/CounterThree';
 import DataFetchingOne from './UseReducerComponents/DataFetchingOne';
 import DataFetchingTwo from './UseReducerComponents/DataFetchingTwo';
+import FocusInput from './UseRefComponents/FocusInput';
+import ClassTimer from './UseRefComponents/ClassTimer';
+import ParentComponent from './UseCallbackHookComponent/ParentComponent';
+import Counter from './UseMemoComponent/Counter';
+import Count from './UseCallbackHookComponent/Count';
 
 
 //import ComponentC from './ComponentTree/ComponentC';
@@ -52,8 +57,16 @@ function App() {
 
     {/* <DataFetchingOne/> */}
 
-    <DataFetchingTwo/>
+    {/* <DataFetchingTwo/> */}
 
+    {/* <FocusInput/> */}
+
+    {/* <ClassTimer/> */}
+
+    {/* <ParentComponent/> */}
+
+    <Counter/> 
+    
     </div>
   );
 }
