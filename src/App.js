@@ -11,8 +11,8 @@ import EffectMouseContainer from './Components/EffectMouseContainer';
 import EffectIntervalHookCounter from './Components/EffectIntervalHookCounter';
 import EffectDataFetching from './Components/EffectDataFetching';
 
-import CounterOne from './UseReducerComponents/CounterOne';
-import CounterTwo from './UseReducerComponents/CounterTwo';
+//import CounterOne from './UseReducerComponents/CounterOne';
+//import CounterTwo from './UseReducerComponents/CounterTwo';
 import CounterThree from './UseReducerComponents/CounterThree';
 import DataFetchingOne from './UseReducerComponents/DataFetchingOne';
 import DataFetchingTwo from './UseReducerComponents/DataFetchingTwo';
@@ -21,7 +21,11 @@ import ClassTimer from './UseRefComponents/ClassTimer';
 import ParentComponent from './UseCallbackHookComponent/ParentComponent';
 import Counter from './UseMemoComponent/Counter';
 import Count from './UseCallbackHookComponent/Count';
+import DoctTitleOne from './CustomHookComponent/DoctTitleOne';
+import DocTitleTwo from './CustomHookComponent/DocTitleTwo';
 
+import CounterOne from './CustomHookComponent/CounterOne';
+import CounterTwo from './CustomHookComponent/CounterTwo';
 
 //import ComponentC from './ComponentTree/ComponentC';
 
@@ -65,7 +69,13 @@ function App() {
 
     {/* <ParentComponent/> */}
 
-    <Counter/> 
+    {/* <Counter/>  */}
+
+    {/* <DoctTitleOne/>
+    <DocTitleTwo/> */}
+
+    {/* <CounterOne/>
+    <CounterTwo/> */}
     
     </div>
   );
